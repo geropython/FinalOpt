@@ -1,0 +1,41 @@
+
+Entrega miercoles 19/07 18:00hs
+
+Desarrollo de un juego clon de arkanoid con graficos 3d con un unico nivel.
+
+nombre archivos: grupo_X_final  - no incluir build
+
+A. Gameplay
+
+1. Poder controlar una paleta(jugador) en la parte inferior de la pantalla
+2. Cuando comienza la partida el jugador tiene una pelota pegada a el
+3. Cuando se presiona la barra espaciadora la pelota es lanzada a los ladrillos que se encuentran en la parte superior
+4. Si la pelota alcanza la parte inferior de la pantalla se dará por perdida y se ejecuta 2.
+5. La partida termina cuando se pierden 3 pelotas o se rompen todos los ladrillos
+6. Power-up "Multiball". En los ladrillos deberan haber 3 powerups escondidos los cuales caen hacia el jugador.
+7. Si el jugador colisiona con un powerup, este desaparece y dos nuevas pelotas son lanzadas desde su posicion
+8. La fisica debe ser 2d y no puede utilizarse el motor de fisicas de Unity. Se debera presentar calculos de fisica sencillos.
+
+
+B. Graficos
+
+1. Escena compuesta por objetos 3D optimizada en su polycount
+2. Todos los objetos de la escena deben utilizar una sola textura(atlas)
+3. Toda la UI debera utilizar un mismo atlas
+
+
+C. UX
+
+1. Splash Screen con nombres de los desarrolladores
+2. Main screen con nombre del juego y boton de jugar (deberan poder ser skipeadas con un boton)
+3. In game menu de pausa con boton para salir al menu principal
+
+D. Tecnicas a utilizar
+
+1. Custom Update Manager
+2. Optimizaciones de Draw Calls
+3. Atlas graficos 3D
+4. Atlas graficos 2D
+5. Optimizaciones unity function calls
+6. Optimizaciones generales de CPU, Memoria y GPU
+
