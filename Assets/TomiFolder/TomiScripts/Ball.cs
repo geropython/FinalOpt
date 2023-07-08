@@ -1,19 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Ball : MonoBehaviour
 {
-   [SerializeField] private GameObject player;
-   [SerializeField] private bool gameStarted = false;
-   [SerializeField] private Vector3 paddleToBallVector;
+    //Ball variables
+     [SerializeField] public GameObject player;
+     [SerializeField] public bool gameStarted = false;
+     [SerializeField] public Vector3 paddleToBallVector;
+     [SerializeField] private float speed = 5f; 
+     private Vector3 ballVelocity;
 
     void Start()
     {
         paddleToBallVector = transform.position - player.transform.position;
     }
-
-    //UTILIZAR CUSTOM UPDATE
     void Update()
     {
         if (!gameStarted)
@@ -23,10 +25,12 @@ public class Ball : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 gameStarted = true;
-                // Aca se puede aplicar una fuerza custom para tirar la pelota.
+                ballVelocity = new Vector3(0, 0, 1) * speed;
             }
         }
+        else
+        {
+            transform.position += ballVelocity * Time.deltaTime;
+        }
     }
-    
-    
 }
