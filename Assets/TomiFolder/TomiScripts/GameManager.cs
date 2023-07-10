@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,9 +12,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Ball ball;
     [SerializeField] private float bottomBoundary;
    
-   //PLAYER LIVES:
-   [SerializeField] private int lives = 3;
+    //PLAYER LIVES:
+    [SerializeField] private int lives = 3;
    
+    //BRICKS REMAINING:
+    [SerializeField] private int bricksRemaining;
+
     void Awake()
     {
         if (Instance == null)
@@ -28,8 +32,13 @@ public class GameManager : MonoBehaviour
     {
         if (ball.transform.position.z < bottomBoundary)
         {
-           print("La pelota tocó fondo. Se pierde una vida");
+            print("La pelota tocó fondo. Se pierde una vida");
             LoseLife();
+        }
+        
+        if (bricksRemaining <= 0)
+        {
+            WinGame();
         }
     }
     public void LoseLife()
@@ -49,10 +58,14 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         // Player Lives = 0.
+        print("Game Over!");
+        //ACTIVAR PANEL,CON BOTONES RETRY Y MAIN MENU
     }
     
     public void WinGame()
     {
         //Break all the bricks
+        print("You Win!!.");
+        //ACTIVAR WINPANEL, CON BOTON DE MAIN MENU.
     }
 }
