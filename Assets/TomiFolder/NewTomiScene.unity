@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.17293847, g: 0.21612774, b: 0.29810032, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &18011606 stripped
@@ -239,6 +243,10 @@ PrefabInstance:
     - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
       propertyPath: m_Name
       value: Brick-NORMAL (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
@@ -353,6 +361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-METAL (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -404,6 +416,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
   m_PrefabInstance: {fileID: 125271504}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &141880196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 141880197}
+  m_Layer: 0
+  m_Name: CANVAS-----------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &141880197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 141880196}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.474865, y: 11.200372, z: 16.128319}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &191699559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -459,6 +502,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &191699560 stripped
@@ -480,7 +527,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &250302525
 Transform:
@@ -564,6 +611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &272488653 stripped
@@ -587,7 +638,7 @@ GameObject:
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!81 &290014031
 AudioListener:
@@ -648,7 +699,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 290014030}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 3.5595903, y: 26.95, z: 0.56865597}
+  m_LocalPosition: {x: 3.5595903, y: 22.4, z: 0.56865597}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -710,6 +761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &296367128 stripped
@@ -727,6 +782,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -839,6 +898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &406813116 stripped
@@ -900,6 +963,10 @@ PrefabInstance:
     - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
       propertyPath: m_Name
       value: Brick-NORMAL (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
@@ -963,6 +1030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &418596160 stripped
@@ -985,6 +1056,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -1092,6 +1167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &496278331 stripped
@@ -1109,6 +1188,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -1216,6 +1299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &595502692 stripped
@@ -1237,7 +1324,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &601757129
 Transform:
@@ -1280,7 +1367,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &685057424
 Transform:
@@ -1313,6 +1400,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -1375,6 +1466,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -1442,7 +1537,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!114 &801934745
 MonoBehaviour:
@@ -1481,6 +1576,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601757129}
     m_Modifications:
+    - target: {fileID: 5046240145620222633, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f190f101dc7387444b50043a1ca4ba02, type: 2}
     - target: {fileID: 5046240145620222635, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1529,6 +1628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &806871546 stripped
@@ -1546,6 +1649,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -1612,7 +1719,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &840855931
 Transform:
@@ -1696,6 +1803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &868726098 stripped
@@ -1713,6 +1824,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -1820,6 +1935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &963403879 stripped
@@ -1882,6 +2001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &977512107 stripped
@@ -1943,6 +2066,10 @@ PrefabInstance:
     - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
       propertyPath: m_Name
       value: Brick-NORMAL (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
@@ -2011,6 +2138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &1090938873 stripped
@@ -2073,6 +2204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &1096307565 stripped
@@ -2094,7 +2229,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1128178288
 Transform:
@@ -2167,6 +2302,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &1132477638 stripped
@@ -2228,6 +2367,10 @@ PrefabInstance:
     - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
       propertyPath: m_Name
       value: Brick-NORMAL (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
@@ -2291,6 +2434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &1139111342 stripped
@@ -2313,6 +2460,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -2379,7 +2530,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1228354059
 Transform:
@@ -2407,6 +2558,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -2469,6 +2624,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -2576,6 +2735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &1304543365 stripped
@@ -2637,6 +2800,10 @@ PrefabInstance:
     - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
       propertyPath: m_Name
       value: Brick-CRYSTAL (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
@@ -2700,6 +2867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &1334639479 stripped
@@ -2727,6 +2898,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -2775,7 +2950,7 @@ PrefabInstance:
     - target: {fileID: 8053459858032259991, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e9cc2f24576b69041b2b249d3f251523, type: 2}
+      objectReference: {fileID: 2100000, guid: 09a0a238fe1f7b149b493538e56aba76, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
 --- !u!4 &1369370834 stripped
@@ -2838,6 +3013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &1380780965 stripped
@@ -2852,6 +3031,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601757129}
     m_Modifications:
+    - target: {fileID: 2854774605021834332, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 167aa5699d3f59242bf5836b3df02386, type: 2}
     - target: {fileID: 2854774605021834334, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2899,6 +3082,10 @@ PrefabInstance:
     - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
       propertyPath: m_Name
       value: Brick-CRYSTAL (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
@@ -2962,6 +3149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &1400834562 stripped
@@ -3024,6 +3215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &1403999904 stripped
@@ -3038,6 +3233,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601757129}
     m_Modifications:
+    - target: {fileID: 5046240145620222633, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f190f101dc7387444b50043a1ca4ba02, type: 2}
     - target: {fileID: 5046240145620222635, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -3086,6 +3285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &1469704317 stripped
@@ -3103,6 +3306,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -3166,6 +3373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-METAL (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -3213,7 +3424,7 @@ PrefabInstance:
     - target: {fileID: 8053459858032259991, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e9cc2f24576b69041b2b249d3f251523, type: 2}
+      objectReference: {fileID: 2100000, guid: 09a0a238fe1f7b149b493538e56aba76, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
 --- !u!4 &1499196254 stripped
@@ -3231,6 +3442,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -3279,7 +3494,7 @@ PrefabInstance:
     - target: {fileID: 8053459858032259991, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e9cc2f24576b69041b2b249d3f251523, type: 2}
+      objectReference: {fileID: 2100000, guid: 09a0a238fe1f7b149b493538e56aba76, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
 --- !u!4 &1511718954 stripped
@@ -3342,6 +3557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &1518595058 stripped
@@ -3364,7 +3583,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!108 &1522267556
 Light:
@@ -3377,14 +3596,14 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.7893378, g: 0.9164281, b: 0.9245283, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3417,7 +3636,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -3435,14 +3654,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522267555}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: -9.00041, y: 2.6054158, z: -14.191344}
+  m_LocalRotation: {x: 0.7145514, y: -0.18338445, z: 0.18168904, w: 0.65021205}
+  m_LocalPosition: {x: 4.37, y: 2.6054158, z: -2.4700003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1128178288}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 84.783, y: -193.466, z: -163.515}
 --- !u!1001 &1573011976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3497,6 +3716,10 @@ PrefabInstance:
     - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
       propertyPath: m_Name
       value: Brick-CRYSTAL (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
@@ -3560,6 +3783,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &1645348548 stripped
@@ -3621,6 +3848,10 @@ PrefabInstance:
     - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
       propertyPath: m_Name
       value: Brick-NORMAL (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
@@ -3684,6 +3915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &1666012095 stripped
@@ -3701,6 +3936,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -3808,6 +4047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &1715860544 stripped
@@ -3829,7 +4072,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1721808675
 Transform:
@@ -3872,7 +4115,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1733824284
 Transform:
@@ -3915,7 +4158,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1750016963
 Transform:
@@ -3944,6 +4187,137 @@ Transform:
   m_Father: {fileID: 685057424}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1751041493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1751041494}
+  - component: {fileID: 1751041496}
+  - component: {fileID: 1751041495}
+  m_Layer: 0
+  m_Name: TextureBaker (0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1751041494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751041493}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.44041, y: -1.434584, z: -13.431344}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2007353806}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1751041495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751041493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 077f80fe3940dc7468ecec90989abe66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sortAxis: {x: 0, y: 0, z: 0}
+  LOG_LEVEL: 3
+  _textureBakeResults: {fileID: 0}
+  _atlasPadding: 1
+  _maxAtlasSize: 4096
+  _useMaxAtlasWidthOverride: 0
+  _maxAtlasWidthOverride: 4096
+  _useMaxAtlasHeightOverride: 0
+  _maxAtlasHeightOverride: 4096
+  _resizePowerOfTwoTextures: 0
+  _fixOutOfBoundsUVs: 0
+  _maxTilingBakeSize: 1024
+  _packingAlgorithm: 1
+  _layerTexturePackerFastMesh: -1
+  _meshBakerTexturePackerForcePowerOfTwo: 1
+  _customShaderProperties: []
+  _customShaderPropNames_Depricated: []
+  _resultType: 0
+  _doMultiMaterial: 0
+  _doMultiMaterialSplitAtlasesIfTooBig: 1
+  _doMultiMaterialSplitAtlasesIfOBUVs: 1
+  _resultMaterial: {fileID: 0}
+  _considerNonTextureProperties: 0
+  _doSuggestTreatment: 1
+  resultMaterials: []
+  resultMaterialsTexArray: []
+  textureArrayOutputFormats: []
+  objsToMesh: []
+  OnCombinedTexturesCoroutineAtlasesAndRects: []
+--- !u!114 &1751041496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751041493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a97974931c5043247b11cd77898c1702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clusterType: 0
+  parentSceneObject: {fileID: 0}
+  data:
+    clusterOnLMIndex: 0
+    clusterByLODLevel: 0
+    origin: {x: 0, y: 0, z: 0}
+    cellSize: {x: 0, y: 0, z: 0}
+    pieNumSegments: 4
+    pieAxis: {x: 0, y: 1, z: 0}
+    ringSpacing: 100
+    combineSegmentsInInnermostRing: 0
+    height: 1
+    maxDistBetweenClusters: 1
+    includeCellsWithOnlyOneRenderer: 1
+  sourceObjectBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0.5, z: 0.5}
+  prefabOptions_outputFolder: 
+  prefabOptions_autoGeneratePrefabs: 0
+  prefabOptions_mergeOutputIntoSinglePrefab: 0
+  meshBakerSettingsAsset: {fileID: 0}
+  meshBakerSettings:
+    _renderType: 0
+    _outputOption: 0
+    _lightmapOption: 1
+    _doNorm: 1
+    _doTan: 1
+    _doCol: 0
+    _doUV: 1
+    _doUV3: 0
+    _doUV4: 0
+    _doUV5: 0
+    _doUV6: 0
+    _doUV7: 0
+    _doUV8: 0
+    _doBlendShapes: 0
+    _pivotLocationType: 0
+    _pivotLocation: {x: 0, y: 0, z: 0}
+    _clearBuffersAfterBake: 0
+    _optimizeAfterBake: 1
+    _uv2UnwrappingParamsHardAngle: 60
+    _uv2UnwrappingParamsPackMargin: 0.005
+    _smrNoExtraBonesWhenCombiningMeshRenderers: 0
+    _smrMergeBlendShapesWithSameNames: 0
+    _assignToMeshCustomizer: {fileID: 0}
 --- !u!1 &1760929018
 GameObject:
   m_ObjectHideFlags: 0
@@ -3958,7 +4332,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1760929019
 Transform:
@@ -4030,6 +4404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &1761959985 stripped
@@ -4091,6 +4469,10 @@ PrefabInstance:
     - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
       propertyPath: m_Name
       value: Brick-NORMAL (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
@@ -4154,6 +4536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &1810966693 stripped
@@ -4171,6 +4557,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -4233,6 +4623,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -4340,6 +4734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &1891735118 stripped
@@ -4402,6 +4800,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &1929582155 stripped
@@ -4419,6 +4821,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -4531,6 +4937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &1971287499 stripped
@@ -4592,6 +5002,10 @@ PrefabInstance:
     - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
       propertyPath: m_Name
       value: Brick-CRYSTAL (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
@@ -4655,6 +5069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &1978046820 stripped
@@ -4672,6 +5090,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -4847,6 +5269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-CRYSTAL (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
 --- !u!4 &2001460325 stripped
@@ -4864,11 +5290,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2007353806}
   m_Layer: 0
-  m_Name: MESH BAKER--------
+  m_Name: MESH BAKER/TEXTURE BAKER--------
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2007353806
 Transform:
@@ -4881,7 +5307,8 @@ Transform:
   m_LocalPosition: {x: 9.44041, y: 1.434584, z: 13.431344}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1751041494}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4939,6 +5366,10 @@ PrefabInstance:
     - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
       propertyPath: m_Name
       value: Brick-NORMAL (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
@@ -5002,6 +5433,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &2063488247 stripped
@@ -5019,6 +5454,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -5082,6 +5521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-METAL (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -5143,6 +5586,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -5250,6 +5697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Brick-NORMAL (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
 --- !u!4 &2136608369 stripped
@@ -5268,6 +5719,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1169946594}
+    - target: {fileID: 1015462335411393774, guid: 744a3ed13f2105f41b80cab817150372, type: 3}
+      propertyPath: gameStarted
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1015462335453059584, guid: 744a3ed13f2105f41b80cab817150372, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5282,7 +5737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1015462335453059584, guid: 744a3ed13f2105f41b80cab817150372, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.78
+      value: -10.84
       objectReference: {fileID: 0}
     - target: {fileID: 1015462335453059584, guid: 744a3ed13f2105f41b80cab817150372, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5341,6 +5796,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601757129}
     m_Modifications:
+    - target: {fileID: 2854774605021834332, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 167aa5699d3f59242bf5836b3df02386, type: 2}
     - target: {fileID: 2854774605021834334, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5388,6 +5847,10 @@ PrefabInstance:
     - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
       propertyPath: m_Name
       value: Brick-CRYSTAL (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2854774605021834335, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5276fae9fe980e849b56ad0cec6f91d2, type: 3}
@@ -5459,6 +5922,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 601757129}
     m_Modifications:
+    - target: {fileID: 5046240145620222633, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f190f101dc7387444b50043a1ca4ba02, type: 2}
     - target: {fileID: 5046240145620222635, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -5506,6 +5973,10 @@ PrefabInstance:
     - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
       propertyPath: m_Name
       value: Brick-NORMAL (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5046240145620222636, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c83e4ebcd4d29ec489ff35f4e75b7fc4, type: 3}
@@ -5581,6 +6052,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LEVEL
       objectReference: {fileID: 0}
+    - target: {fileID: 549262735138157878, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2673872469334964174, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -5632,23 +6107,43 @@ PrefabInstance:
     - target: {fileID: 8030526005577807913, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b777860d642e9c444849539e71134bfe, type: 2}
+      objectReference: {fileID: 2100000, guid: cafa3f725a6df574680ea296611194ed, type: 2}
+    - target: {fileID: 8030526005577807915, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8030526005640675802, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b777860d642e9c444849539e71134bfe, type: 2}
+      objectReference: {fileID: 2100000, guid: cafa3f725a6df574680ea296611194ed, type: 2}
+    - target: {fileID: 8030526005640675804, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8030526005949954448, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 23070c8fc1d652646813b9d6e3349d64, type: 2}
+    - target: {fileID: 8030526005949954450, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8030526006441736477, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b777860d642e9c444849539e71134bfe, type: 2}
+      objectReference: {fileID: 2100000, guid: cafa3f725a6df574680ea296611194ed, type: 2}
+    - target: {fileID: 8030526006441736479, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8030526006548767783, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b777860d642e9c444849539e71134bfe, type: 2}
+      objectReference: {fileID: 2100000, guid: cafa3f725a6df574680ea296611194ed, type: 2}
+    - target: {fileID: 8030526006548767785, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 957b45e9b8fc92a4fa1bd3e229a8c903, type: 3}
 --- !u!4 &8030526005987256687 stripped
@@ -5666,6 +6161,10 @@ PrefabInstance:
     - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Name
       value: Brick-METAL (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053459858032259988, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8053459858032259989, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_RootOrder
@@ -5714,7 +6213,7 @@ PrefabInstance:
     - target: {fileID: 8053459858032259991, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e9cc2f24576b69041b2b249d3f251523, type: 2}
+      objectReference: {fileID: 2100000, guid: 09a0a238fe1f7b149b493538e56aba76, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e194c10ffa0a0014582c0057adc85b98, type: 3}
 --- !u!1001 &8461315252003054433
