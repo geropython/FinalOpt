@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/GeroUI/MainMenu.unity
+    guid: a22af6e3779c3624b9dd09efd9e0ca75
+  - enabled: 1
+    path: Assets/GeroUI/Game.unity
+    guid: a0f3affe2751d65498d2b8d81e25f341
   m_configObjects: {}
