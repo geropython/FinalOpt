@@ -4,9 +4,14 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     public GameObject _splash;
-    public void PlayGame()
+    public void PlayGameSpace()
     {
         if (Input.GetKey(KeyCode.Space)) SceneManager.LoadScene(1);
+    }
+
+    public void PlayGameClick()
+    {
+        SceneManager.LoadScene(1);
     }
 
     public void MainMenu()
