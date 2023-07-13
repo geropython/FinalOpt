@@ -20,6 +20,7 @@ public class PhysicsObject : MonoBehaviour
         acceleration += force / mass;
     }
 
+    //UTILIZAR CUSTOM UPDATE
     public void Update()
     {
         Vector2 deltaTime = default;

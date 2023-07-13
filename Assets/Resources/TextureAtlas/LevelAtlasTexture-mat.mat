@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NewAtlasTexture-mat
+  m_Name: LevelAtlasTexture-mat
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
   - _METALLICGLOSSMAP
@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: e72eeb6c903a8024a80146842878f506, type: 3}
+        m_Texture: {fileID: 2800000, guid: 561f61501b4619d49b85f9d1f29edc6c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -44,19 +44,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: f7c4dff71b846eb4b8c1d0e03e7c353c, type: 3}
+        m_Texture: {fileID: 2800000, guid: bab748f415fa27244a531f4c2e193e6a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 4ac42f8c221528c43ba8a12cc0234cc3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 51190e26dfd98774a9232aca7f197bd7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 638528221d46bb54ba56c66a5a1372b5, type: 3}
+        m_Texture: {fileID: 2800000, guid: da0ef7d2723775b478d33b1c17e10f44, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 2dbae5737f7b2104782982c3c2599dca, type: 3}
+        m_Texture: {fileID: 2800000, guid: 869c5d5b681bd204a9de52e7cd2a9a74, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -65,7 +65,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _GlossMapScale: 0.332
+    - _GlossMapScale: 0.421
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
@@ -78,6 +78,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.11792451, g: 0.5333206, b: 1, a: 1}
+    - _Color: {r: 0.12904951, g: 0.51227146, b: 0.9433962, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

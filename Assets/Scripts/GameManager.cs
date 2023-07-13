@@ -30,17 +30,19 @@ public class GameManager : MonoBehaviour
     //USE CUSTOM UPDATE:
     void Update()
     {
-        if (ball.transform.position.z < bottomBoundary)
+        //For not destroying the ball instance in MAIN MENU
+        if (ball != null && ball.transform.position.z < bottomBoundary)
         {
             print("La pelota tocó fondo. Se pierde una vida");
             LoseLife();
         }
-        
+    
         if (bricksRemaining <= 0)
         {
             WinGame();
         }
     }
+
     public void LoseLife()
     {
         lives--;
