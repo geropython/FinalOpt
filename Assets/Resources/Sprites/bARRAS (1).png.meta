@@ -1,0 +1,2951 @@
+fileFormatVersion: 2
+guid: 21c7b73bd34d88b44b19cb796c22b5ef
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bARRAS (1)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 227
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f85b9127edaa7c42853580ac627eec8
+      internalID: 120467476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 227
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2370d01cfa7a13c468f9ba298347655d
+      internalID: -325215997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 227
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45296a6e018e77c43922a3f3f11faf8d
+      internalID: -1256251276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 227
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35603ae92c744674996f1f87fe6da880
+      internalID: -449559257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 227
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a45b317f7fd42542825cc3e45b49382
+      internalID: -199893708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 227
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2216367050cd88f408e4ee15b1cb0526
+      internalID: 540877964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 212
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde396f6fa4918b4e8866b5c3f4448d4
+      internalID: -836697303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 212
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a7317c34c514a47aa1d2d7c7d2e10c
+      internalID: 1681480921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 212
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15741c9f580d0845987a3b5b0453c8f
+      internalID: 1271635098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 212
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0685babddce09224ba5587f0ecc8d35a
+      internalID: 1911919924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 212
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac16d1725f621d45a7f1ec2a084180b
+      internalID: -2020756012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 196
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e64ade0d5d76304d8fcfb4985526159
+      internalID: -708850998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 196
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f357e65b00c0ae42a5c56d537c9ac70
+      internalID: 648102736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 196
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1ae544723d91b4eacae10b09aeca02
+      internalID: -1838200462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_14
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 196
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd054203b4f6ed4d801cdded3d9bef9
+      internalID: 1535539551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_15
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 196
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3ffc986a3e37b459791b04acc734a8
+      internalID: -930704752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 180
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfe565dd87392e47ac49b27987ec642
+      internalID: 810285706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_17
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 180
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb5af6dbe1fc604dbae9522bc38c803
+      internalID: 162287141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 180
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d9d68715379d34486610e2a34be9af
+      internalID: 261706407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 180
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72bd205ac43ab845a4b8d446d43760d
+      internalID: 663638351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_20
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 180
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c876230fde5de5942a7a059829f011d0
+      internalID: 715415169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 164
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fdc93209e27244992570b1294b77ac
+      internalID: -172343000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_22
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 164
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b896e39529ec609488fca4da90581810
+      internalID: -737771212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 164
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f466416eab60394385641f37db461ec
+      internalID: -2052821426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 164
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e264bb019edda4b8d91593911e2c51
+      internalID: 1759833060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_25
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 164
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529a8834effc6a344af75373f1f3d800
+      internalID: -1531339180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 148
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ba138cb1feafd4ebcedb65a6cbef84
+      internalID: -1646586046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 148
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3285ccf67d34ea84d8c49be93ac72540
+      internalID: -526756326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_28
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 148
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf1d706bcc0eec4eafcbe92405bc326
+      internalID: -2042123034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_29
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 148
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc806fbf29237a47a2ef49a2177eba4
+      internalID: -94284490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_30
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 148
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39243879983e2e14883d02dd9bead343
+      internalID: 1735994799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_31
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 132
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3391d49b19d1c5f4a968b2e44b86df9a
+      internalID: 399422704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 132
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c484f39423a8eee4ba2c75ebe12d5463
+      internalID: -1828964089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_33
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 132
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4ae4045646d634ea868bd800566323
+      internalID: 1093562417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_34
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 132
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2b7eb81d296d34287265ac61256110
+      internalID: -714248118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_35
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 132
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d4a85f41323394f9eeec6cb7f11f29
+      internalID: 1832172542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 116
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5db1fd7a861025469c9447a00ec3178
+      internalID: -1653601395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_37
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 116
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e5eeed2ca93c41ab42a1ea5ed7ab6
+      internalID: -61939780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_38
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 116
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9429dc2f34f55ad4490a4b9097aea9e3
+      internalID: -1858204645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_39
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 116
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bdf4d282698e343ae38b95860bb4be
+      internalID: -824986488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_40
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 116
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db4aee3435f1664ca6d07862e6b4e66
+      internalID: -390513461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_41
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 116
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ee13b3d32de2d4fa69a7a0cf98929c
+      internalID: -1273899315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_42
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 116
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3668b3234780daa4ebb3ef7f1bc6f828
+      internalID: -806179228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_43
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 116
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1721df253f6507541890af7ed6b1c3d6
+      internalID: 883348838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_44
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 116
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9fd9d6230644849b9e51a7cd41832f
+      internalID: 1577347802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_45
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 116
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233d4fd99f83c8d41b7d448b1d62f2de
+      internalID: -903438465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_46
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 116
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9819b20b39d24504eac07026c2128ba8
+      internalID: -162099924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_47
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 116
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1886d823221160458fe02391d3e4f65
+      internalID: 983541988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 101
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e090601d5c921247a3f929037bda815
+      internalID: -1201590974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_49
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 101
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f58b961233cc5489121f5709f0bb6c
+      internalID: 1400194484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_50
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 101
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e86eccc3f597904f8201ca29a24f7e0
+      internalID: -775233444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_51
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 101
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae1d8e2380eb5548b38eb3cc4c8c3d4
+      internalID: 1715006641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_52
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 101
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53198a4e54f45774b8bf19fbe2a0493d
+      internalID: 459669005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_53
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 101
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c84a1de506a9c4596588612a6dff9e
+      internalID: -61982167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_54
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 101
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0d803fc1770f544aeb8a205dd2fda1
+      internalID: -2063843481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_55
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 101
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c9f6aa547d6524c9b3f1df0c15a5e8
+      internalID: -1562669287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_56
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 101
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03879f9b51d6f24896c519082f0ee01
+      internalID: -1472225016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_57
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 101
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a701dd9a0e9eb1c4c9f5ca94d62fad03
+      internalID: 179852243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_58
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 101
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89cf056ac1e08b4d95d02cf7c9c7272
+      internalID: 1894862170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_59
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 84
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca896182b1cddf459bcd3d1a5c5210d
+      internalID: -578173943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_60
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 84
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40e53c2bbb4ff144b2b1c7101f66298
+      internalID: -1971774848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_61
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 84
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc034c5cd9e9834da598f06db3de4e6
+      internalID: 1896175020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_62
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 84
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdd4502d6571ad408ebe72e2eceecb8
+      internalID: 1070915861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_63
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 84
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4623f8e18caf2e84b93d612636ff0626
+      internalID: -1623546456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_64
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 84
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676e74aeed4af914bbc59d0a944ed5f5
+      internalID: 1316001430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_65
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 84
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510746436b4edd24abc8d9e8a9c1e3bf
+      internalID: -823411753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_66
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 84
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f374f88e170994c48b414ec584f85375
+      internalID: -1311691598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_67
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 84
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3d6e00d2de76a43acefc9822cfd148
+      internalID: 209706421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_68
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 84
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30842c7294ca1b54aa97211f86638d10
+      internalID: 1849998820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_69
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 84
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89732be1f7e888d40a6b802e7ba315d5
+      internalID: 857831368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_70
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 84
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2065a649d625f6b44805e3e290e17b92
+      internalID: -614681526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_71
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 69
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5852c683d551f47aa289c61bb0e277
+      internalID: 1811544950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_72
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 69
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7dee3b2f85a2e4fa46887fdda38aa3
+      internalID: 1764879369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_73
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 69
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee121b4c947b5054aa2684cdfe5bc2c8
+      internalID: 1922888138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_74
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 69
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febc47d3eb2681f41931e8e97934a147
+      internalID: -1928346913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_75
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 69
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023a784d71a2262469723c8818a479a1
+      internalID: -1324072776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_76
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 69
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f239f95189f45484395bbb502e84464e
+      internalID: 1058974686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_77
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 69
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c6de392ceb2804e93718d8bf8206ba
+      internalID: -1680953695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_78
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 69
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d1b2bffe59abe41802b689a54342ca
+      internalID: 735146992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_79
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 69
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e73dade455e6b438135d3025c2c4b3
+      internalID: -2139352387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_80
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 69
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce3d5db0660b0d41aa1407d6808f3ef
+      internalID: 1023382452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_81
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 69
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021e660a6bf98ba47b4b345e6a316661
+      internalID: -977570125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_82
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 52
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4948a8dd0c9e641418542caf47ab6cdd
+      internalID: 129736069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_83
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 52
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c7354c73d80e3408f19f53c0c88c0d
+      internalID: 492307351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_84
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 52
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f8626a6469a024f82d0cc1f30d0d42
+      internalID: -1879225692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_85
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 52
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb336376741faff4ebbcd82d411e2085
+      internalID: 1308025990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_86
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 52
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72872f6066b7f2745beece20d94f1aff
+      internalID: 1992332865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_87
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 52
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae835f16c3fea26418e691ad41478550
+      internalID: 1404257167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_88
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 52
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0fbe388cbf76f4f8ff9f7eed02eb48
+      internalID: -2115051132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_89
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 52
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201ced56995d4574ca4fdf464e006083
+      internalID: -1301516437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_90
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 52
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05094306951ade541a860bb611f842dc
+      internalID: -1124384619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_91
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 52
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcab12b2108d1944a38adbeb2ecee32
+      internalID: 1316013849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_92
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 52
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c0eec703726b743ac225b63f8de572
+      internalID: -1308761073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_93
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 52
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5d3820b20a3c64ba6e010b2b3d7cdc
+      internalID: -2082329988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_94
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 37
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecef9c2de84f06540a4fd72b6399b3a7
+      internalID: -1402948882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_95
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 37
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66854a58c6f57d4393e68782259f804
+      internalID: 2034000484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_96
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 37
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae282f1dca7c605479adfca77564a892
+      internalID: 1105203514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_97
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 37
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3036c85e12fec4b9569b2f7c927828
+      internalID: -1995546745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_98
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 37
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6094e145de1d3b141ba7e8693171bb0b
+      internalID: -8142611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_99
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 37
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cf6b5241b22204cb039f37e615bd9e
+      internalID: -916671593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_100
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 37
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc1a59598c78ff48896e9ecd24c06e3
+      internalID: -1569115826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_101
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 37
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7036cc10e09d7aa4d95a663a107908a1
+      internalID: 1389670493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_102
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 37
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e028f29dbca824dbd6a9290e848e64
+      internalID: 1928290356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_103
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 37
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76be28832cb37de47b9d425835d82211
+      internalID: 943899065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_104
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 37
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e04b16ccd76cc0499ea66a71ad28e68
+      internalID: 1952062936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_105
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 20
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbfdc2bdac64cd42a98fd2af75d0520
+      internalID: -1896742590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_106
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 20
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6b1daf76ed0284aa1f0816ebf5b835
+      internalID: 1107843793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_107
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 20
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74527c8c88d32f4ba01ea32d7f74bfc
+      internalID: 692093701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_108
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 20
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef71985eade8cf74e8929a2176e1e5c8
+      internalID: -352425475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_109
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 20
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e5c1e37a145094987f0741810b4c6b
+      internalID: -1693266098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_110
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 20
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0df26836aa8a1843aa001670a60575a
+      internalID: 2063970603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_111
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 20
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e66ec7a8c7fd784dba572c4ca6d4c37
+      internalID: 1027311204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_112
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 20
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad22ad5534fac5042a81537c1fb93576
+      internalID: 1449170498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_113
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 20
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff99fa7fa1ae73468a8170ba041a8d8
+      internalID: 2037263189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_114
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 20
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784ea2cdf3981dd49b7bad834125928a
+      internalID: 1870331485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_115
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 20
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23b481594ebb9d47ac3fafc880b2e51
+      internalID: -907600055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_116
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 20
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e44be92f777f5459d56a10b8d6ced8
+      internalID: -1514584678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_117
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 5
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4343d26f491328842afbf37e9d2e5d77
+      internalID: -2050110605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_118
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aaf4600f5a4f042805121d9b7c7977
+      internalID: 2109387570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_119
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 5
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf226ae82094d4f4a991163627f37709
+      internalID: 100874965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_120
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 5
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4842d6abc83898498a4e0a26aa73500
+      internalID: 1885386891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_121
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 5
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9f97ba50a2a714198e92032e49d996
+      internalID: 951962942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_122
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 5
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4af13ebfe3bb249bfc544501b0fb21
+      internalID: -1279118544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_123
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 5
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3714bf1ebd16a9c49b7c8f3ded8a1dfb
+      internalID: 1642340159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_124
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 5
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9c54506d3991446844a28ca40008f3
+      internalID: 2106609173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_125
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 5
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b65519806aab334e92f55fd9ad31e98
+      internalID: 167265319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_126
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 5
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e60edb5889c384a9c08f74a3f64402
+      internalID: -1875476048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bARRAS (1)_127
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 5
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cfc3e93dd896f4285b27d60b44072b
+      internalID: -1931862252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bARRAS (1)_52: 459669005
+      bARRAS (1)_63: -1623546456
+      bARRAS (1)_3: -449559257
+      bARRAS (1)_13: -1838200462
+      bARRAS (1)_77: -1680953695
+      bARRAS (1)_118: 2109387570
+      bARRAS (1)_126: -1875476048
+      bARRAS (1)_78: 735146992
+      bARRAS (1)_86: 1992332865
+      bARRAS (1)_111: 1027311204
+      bARRAS (1)_1: -325215997
+      bARRAS (1)_36: -1653601395
+      bARRAS (1)_98: -8142611
+      bARRAS (1)_96: 1105203514
+      bARRAS (1)_22: -737771212
+      bARRAS (1)_50: -775233444
+      bARRAS (1)_30: 1735994799
+      bARRAS (1)_65: -823411753
+      bARRAS (1)_109: -1693266098
+      bARRAS (1)_101: 1389670493
+      bARRAS (1)_23: -2052821426
+      bARRAS (1)_46: -162099924
+      bARRAS (1)_104: 1952062936
+      bARRAS (1)_48: -1201590974
+      bARRAS (1)_113: 2037263189
+      bARRAS (1)_39: -824986488
+      bARRAS (1)_33: 1093562417
+      bARRAS (1)_75: -1324072776
+      bARRAS (1)_71: 1811544950
+      bARRAS (1)_42: -806179228
+      bARRAS (1)_60: -1971774848
+      bARRAS (1)_91: 1316013849
+      bARRAS (1)_68: 1849998820
+      bARRAS (1)_41: -1273899315
+      bARRAS (1)_5: 540877964
+      bARRAS (1)_27: -526756326
+      bARRAS (1)_45: -903438465
+      bARRAS (1)_115: -907600055
+      bARRAS (1)_114: 1870331485
+      bARRAS (1)_93: -2082329988
+      bARRAS (1)_61: 1896175020
+      bARRAS (1)_10: -2020756012
+      bARRAS (1)_85: 1308025990
+      bARRAS (1)_32: -1828964089
+      bARRAS (1)_12: 648102736
+      bARRAS (1)_89: -1301516437
+      bARRAS (1)_62: 1070915861
+      bARRAS (1)_120: 1885386891
+      bARRAS (1)_92: -1308761073
+      bARRAS (1)_123: 1642340159
+      bARRAS (1)_58: 1894862170
+      bARRAS (1)_84: -1879225692
+      bARRAS (1)_106: 1107843793
+      bARRAS (1)_28: -2042123034
+      bARRAS (1)_59: -578173943
+      bARRAS (1)_64: 1316001430
+      bARRAS (1)_107: 692093701
+      bARRAS (1)_116: -1514584678
+      bARRAS (1)_19: 663638351
+      bARRAS (1)_54: -2063843481
+      bARRAS (1)_16: 810285706
+      bARRAS (1)_25: -1531339180
+      bARRAS (1)_44: 1577347802
+      bARRAS (1)_95: 2034000484
+      bARRAS (1)_7: 1681480921
+      bARRAS (1)_102: 1928290356
+      bARRAS (1)_40: -390513461
+      bARRAS (1)_90: -1124384619
+      bARRAS (1)_80: 1023382452
+      bARRAS (1)_127: -1931862252
+      bARRAS (1)_9: 1911919924
+      bARRAS (1)_55: -1562669287
+      bARRAS (1)_83: 492307351
+      bARRAS (1)_38: -1858204645
+      bARRAS (1)_79: -2139352387
+      bARRAS (1)_29: -94284490
+      bARRAS (1)_66: -1311691598
+      bARRAS (1)_14: 1535539551
+      bARRAS (1)_69: 857831368
+      bARRAS (1)_94: -1402948882
+      bARRAS (1)_97: -1995546745
+      bARRAS (1)_100: -1569115826
+      bARRAS (1)_122: -1279118544
+      bARRAS (1)_125: 167265319
+      bARRAS (1)_119: 100874965
+      bARRAS (1)_8: 1271635098
+      bARRAS (1)_21: -172343000
+      bARRAS (1)_76: 1058974686
+      bARRAS (1)_103: 943899065
+      bARRAS (1)_67: 209706421
+      bARRAS (1)_117: -2050110605
+      bARRAS (1)_56: -1472225016
+      bARRAS (1)_43: 883348838
+      bARRAS (1)_99: -916671593
+      bARRAS (1)_49: 1400194484
+      bARRAS (1)_73: 1922888138
+      bARRAS (1)_112: 1449170498
+      bARRAS (1)_53: -61982167
+      bARRAS (1)_31: 399422704
+      bARRAS (1)_108: -352425475
+      bARRAS (1)_37: -61939780
+      bARRAS (1)_121: 951962942
+      bARRAS (1)_57: 179852243
+      bARRAS (1)_110: 2063970603
+      bARRAS (1)_17: 162287141
+      bARRAS (1)_11: -708850998
+      bARRAS (1)_20: 715415169
+      bARRAS (1)_51: 1715006641
+      bARRAS (1)_26: -1646586046
+      bARRAS (1)_70: -614681526
+      bARRAS (1)_88: -2115051132
+      bARRAS (1)_15: -930704752
+      bARRAS (1)_74: -1928346913
+      bARRAS (1)_6: -836697303
+      bARRAS (1)_34: -714248118
+      bARRAS (1)_87: 1404257167
+      bARRAS (1)_24: 1759833060
+      bARRAS (1)_82: 129736069
+      bARRAS (1)_0: 120467476
+      bARRAS (1)_35: 1832172542
+      bARRAS (1)_4: -199893708
+      bARRAS (1)_72: 1764879369
+      bARRAS (1)_124: 2106609173
+      bARRAS (1)_81: -977570125
+      bARRAS (1)_18: 261706407
+      bARRAS (1)_47: 983541988
+      bARRAS (1)_2: -1256251276
+      bARRAS (1)_105: -1896742590
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
