@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -7664,13 +7664,13 @@ TextureImporter:
       emblemas_267: 934833931
       emblemas_323: -2010235953
       emblemas_65: 716289213
+      emblemas_214: 212649059
       emblemas_45: -552833625
-      emblemas_160: -1997805491
       emblemas_74: -1892057549
       emblemas_121: 221314008
       emblemas_206: -1504743504
       emblemas_41: 562203989
-      emblemas_214: 212649059
+      emblemas_160: -1997805491
       emblemas_66: 91506494
       emblemas_288: 1104039797
       emblemas_116: -147163940
