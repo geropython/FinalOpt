@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: a22af6e3779c3624b9dd09efd9e0ca75
+  - enabled: 1
+    path: Assets/Scenes/NewTomiScene.unity
+    guid: cc0b7a8d71cd96b4c8647aaf8c504bb7
   m_configObjects: {}
