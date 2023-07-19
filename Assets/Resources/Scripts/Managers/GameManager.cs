@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -14,6 +15,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int maxLives = 3;
     [SerializeField] private GameObject winScreen;
     [SerializeField] private GameObject loseScreen;
+    [SerializeField] private TextMeshProUGUI livesAmount;
     private int _ballsOnScreen;
     private float _bricksToDestroy;
     private bool _gameComplete;
@@ -47,6 +49,7 @@ public class GameManager : MonoBehaviour
     public void LoseLife()
     {
         _lives--;
+        livesAmount.text = _lives.ToString();
         if (_lives <= 0)
             GameOver();
         else
@@ -85,6 +88,7 @@ public class GameManager : MonoBehaviour
     {
         gameStart = false;
         _lives = maxLives;
+        livesAmount.text = _lives.ToString();
         PowerUpManager.CalculateStartBricks();
         _bricksToDestroy = 0 - PowerUpManager.powerUpsBricks;
         winScreen.SetActive(false);
