@@ -50,7 +50,6 @@ public class MultiBall : MonoBehaviour
 
         if (distanceX <= sumHalfWidths && distanceZ <= sumHalfHeights)
         {
-            Debug.Log("Colision");
             gameObject.SetActive(false);
             CreateBalls();
         }

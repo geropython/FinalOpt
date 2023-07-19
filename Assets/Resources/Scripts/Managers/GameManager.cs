@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject loseScreen;
     private int _ballsOnScreen;
     private float _bricksToDestroy;
+    private bool _gameComplete;
 
     //PLAYER LIVES:
     private int _lives;
@@ -33,18 +34,18 @@ public class GameManager : MonoBehaviour
 
         CollisionsManager = GetComponent<CollisionsManager>();
         PowerUpManager = GetComponent<PowerUpManager>();
+        Time.timeScale = 1f;
         ResetGameState();
     }
 
     //USE CUSTOM UPDATE:
     private void Update()
     {
-        if (PowerUpManager.normalBricks <= _bricksToDestroy) WinGame();
+        if (PowerUpManager.normalBricks <= _bricksToDestroy && !_gameComplete) WinGame();
     }
 
     public void LoseLife()
     {
-        print("La pelota tocó fondo. Se pierde una vida");
         _lives--;
         if (_lives <= 0)
             GameOver();
@@ -66,7 +67,6 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         // Player Lives = 0.
-        print("Game Over!");
         //ACTIVAR PANEL,CON BOTONES RETRY Y MAIN MENU
         Time.timeScale = 0;
         loseScreen.SetActive(true);
@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
     public void WinGame()
     {
         //Break all the bricks
-        print("You Win!!.");
+        _gameComplete = true;
         //ACTIVAR WINPANEL, CON BOTON DE MAIN MENU.
         Time.timeScale = 0;
         winScreen.SetActive(true);
@@ -89,5 +89,6 @@ public class GameManager : MonoBehaviour
         _bricksToDestroy = 0 - PowerUpManager.powerUpsBricks;
         winScreen.SetActive(false);
         loseScreen.SetActive(false);
+        _gameComplete = false;
     }
 }

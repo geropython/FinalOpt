@@ -3,12 +3,6 @@ using UnityEngine;
 
 public class Brick : MonoBehaviour
 {
-    /*private void OnMouseDown() // Reemplazar esto con colision con pelotita
-    {
-        BrickDestroy();
-        CheckCollision();
-    }*/
-
     public List<GameObject> objectsToCheck; // Lista de GameObjects que serán chequeados
     public float collisionDistance = 1.0f; // Distancia para detectar colisiones
     private PowerUpManager _powerUpManager;
@@ -54,12 +48,8 @@ public class Brick : MonoBehaviour
         var sumHalfWidths = ballRender.bounds.size.x / 2 + objectRenderer.bounds.size.x / 2;
         var sumHalfHeights = ballRender.bounds.size.z / 2 + objectRenderer.bounds.size.z / 2;
 
-        if (distanceX <= sumHalfWidths && distanceZ <= sumHalfHeights)
-        {
-            Debug.Log("Colision");
-            BrickDestroy();
-            //posZMove = 1;
-        }
+        if (distanceX <= sumHalfWidths && distanceZ <= sumHalfHeights) BrickDestroy();
+        //posZMove = 1;
     }
 
     public void BrickDestroy()
@@ -69,7 +59,6 @@ public class Brick : MonoBehaviour
 
         if (item == "PowerUp" && _powerUpManager.powerUpsBricks > 0)
         {
-            Debug.Log("POWERUP");
             _powerUpManager.powerUpsBricks -= 1;
             var multiBall = Instantiate(_powerUpManager.powerUpPrefab, transform.position, Quaternion.identity);
         }
