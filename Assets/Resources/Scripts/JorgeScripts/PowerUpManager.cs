@@ -16,7 +16,7 @@ public class PowerUpManager : MonoBehaviour
         normalBricks = (allBricksInGame.Length - powerUpsBricks);
         _dic["PowerUp"] = powerUpsBricks;
         _dic["Empty"] = normalBricks;
-        allBricksInGame = null;
+        allBricksInGame = null; // Chau Lista
     }
     public void UpdateRandom() // Actualiza valores de cantidad de powerups y cajas
     {

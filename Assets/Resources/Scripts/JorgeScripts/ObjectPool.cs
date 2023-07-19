@@ -8,8 +8,8 @@ public class ObjectPool : MonoBehaviour
     [SerializeField] List<GameObject> ballList;
     [SerializeField] int poolSizeBall = 10;
     public GameObject player; //REFERENCIA PARA EL INSTANCIAMIENTO EN OTRO SCRIPT
-
-    public int dirBall = 1;
+    
+    public Renderer ball; // AGREGARDO
 
     private void Start()
     {

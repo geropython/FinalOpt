@@ -6,10 +6,37 @@ public class Brick : MonoBehaviour
 {
     PowerUpManager _powerUpManager;
     ObjectPool pool;
+    private Renderer objectRenderer;
+    public void CheckCollision()
+    {
+        Vector3 ballPosition = pool.ball.transform.position;
+        Vector3 objectPosition = transform.position;
+
+        float distanceX = Mathf.Abs(ballPosition.x - objectPosition.x);
+        float distanceZ = Mathf.Abs(ballPosition.z - objectPosition.z);
+
+        float sumHalfWidths = pool.ball.bounds.size.x / 2 + objectRenderer.bounds.size.x / 2;
+        float sumHalfHeights = pool.ball.bounds.size.z / 2 + objectRenderer.bounds.size.z / 2;
+        Debug.Log(distanceX + "Distancia X");
+        Debug.Log(distanceZ + "Distancia Z");
+
+        if (distanceX <= sumHalfWidths && distanceZ <= sumHalfHeights)
+        {
+            Debug.Log("Colision");
+        }
+    }
     void Start()
     {
         _powerUpManager = FindObjectOfType<PowerUpManager>();
         pool = FindObjectOfType<ObjectPool>();
+
+        objectRenderer = GetComponent<Renderer>();
+
+        float visualWidth = objectRenderer.bounds.size.x;
+        float visualHeight = objectRenderer.bounds.size.z;
+
+        Debug.Log("Anchura visual: " + visualWidth);
+        Debug.Log("Altura visual: " + visualHeight);
     }
 
     public void BrickDestroy()
@@ -31,5 +58,26 @@ public class Brick : MonoBehaviour
     private void OnMouseDown() // Reemplazar esto con colision con pelotita
     {
         BrickDestroy();
+        CheckCollision();
+    }
+
+    public List<GameObject> objectsToCheck; // Lista de GameObjects que serán chequeados
+    public float collisionDistance = 1.0f; // Distancia para detectar colisiones
+
+    private void Update()
+    {
+        for (int i = 0; i < objectsToCheck.Count; i++)
+        {
+            GameObject currentObject = objectsToCheck[i];
+            if (currentObject != gameObject) // Evitar comparar el objeto consigo mismo
+            {
+                float distance = Vector3.Distance(transform.position, currentObject.transform.position);
+                if (distance <= collisionDistance)
+                {
+                    // Se ha detectado una colisión con el objeto actual en la lista
+                    Debug.Log("Colisión detectada con: " + currentObject.name);
+                }
+            }
+        }
     }
 }
