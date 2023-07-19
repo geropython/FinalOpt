@@ -1,26 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    //JORGE
-    public bool gameStart = false;
     //GAME MANAGER SINGLETON
-    public static GameManager Instance = null;
-    
+    public static GameManager Instance;
+
+    //JORGE
+    public bool gameStart;
+
     //BALL AND BOTTOM BOUNDARY LOGIC:
     [SerializeField] private Ball ball;
     [SerializeField] private float bottomBoundary;
-   
-    //PLAYER LIVES:
-    [SerializeField] private int lives = 3;
-   
-    //BRICKS REMAINING:
-    [SerializeField] private int bricksRemaining;
+    [SerializeField] private int maxLives = 3;
 
-    void Awake()
+    //PLAYER LIVES:
+    private int _lives;
+    public CollisionsManager CollisionsManager { get; private set; }
+    public PowerUpManager PowerUpManager { get; private set; }
+
+    private void Awake()
     {
         if (Instance == null)
             Instance = this;
@@ -28,27 +26,38 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
 
         DontDestroyOnLoad(gameObject);
-    }
-    //USE CUSTOM UPDATE:
-    void Update()
-    {
-        //For not destroying the ball instance in MAIN MENU
-        if (ball != null && ball.transform.position.z < bottomBoundary)
-        {
-            print("La pelota tocó fondo. Se pierde una vida");
-            LoseLife();
-        }
-    
-        if (bricksRemaining <= 0)
-        {
-            WinGame();
-        }
+
+        CollisionsManager = GetComponent<CollisionsManager>();
+        PowerUpManager = GetComponent<PowerUpManager>();
+        ResetGameState();
     }
 
+    //USE CUSTOM UPDATE:
+    private void Update()
+    {
+        //For not destroying the ball instance in MAIN MENU
+        if (ball != null && ball.transform.position.z < bottomBoundary) LoseLife();
+
+        if (PowerUpManager.normalBricks <= 0 - PowerUpManager.powerUpsBricks) WinGame();
+    }
+    
     public void LoseLife()
     {
-        lives--;
-        if (lives <= 0)
+        print("La pelota tocó fondo. Se pierde una vida");
+        _lives--;
+        if (_lives <= 0)
+            GameOver();
+        else
+            // Reiniciar la posición de la pelota y volver a pegarla al player
+            // ball.gameStarted = false;
+            // ball.transform.position = ball.player.transform.position + ball.paddleToBallVector;
+            gameStart = false;
+    }
+
+    public void SpawnNewBall()
+    {
+        _lives--;
+        if (_lives <= 0)
         {
             GameOver();
         }
@@ -59,17 +68,25 @@ public class GameManager : MonoBehaviour
             ball.transform.position = ball.player.transform.position + ball.paddleToBallVector;
         }
     }
+
     public void GameOver()
     {
         // Player Lives = 0.
         print("Game Over!");
         //ACTIVAR PANEL,CON BOTONES RETRY Y MAIN MENU
     }
-    
+
     public void WinGame()
     {
         //Break all the bricks
         print("You Win!!.");
         //ACTIVAR WINPANEL, CON BOTON DE MAIN MENU.
+    }
+
+    private void ResetGameState()
+    {
+        gameStart = false;
+        _lives = maxLives;
+        PowerUpManager.CalculateStartBricks();
     }
 }

@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    ObjectPool pool;
     [SerializeField] private float speed = 5f;
     public bool gameStart;
+    private ObjectPool pool;
 
     private void Start()
     {
@@ -15,35 +13,29 @@ public class PlayerController : MonoBehaviour
     }
 
     //UTILIZAR CUSTOM UPDATE
-    void Update()
+    private void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
+        var horizontalInput = Input.GetAxis("Horizontal");
 
         transform.position += new Vector3(horizontalInput, 0, 0) * (speed * Time.deltaTime);
         LimitMovePlayer();
         StartGame();
     }
-    void LimitMovePlayer() //Limita el movimiento del player (posicion hardcodeada)
+
+    private void LimitMovePlayer() //Limita el movimiento del player (posicion hardcodeada)
     {
-        if (transform.position.x < 2)
-        {
-            transform.position = new Vector3(2, transform.position.y, transform.position.z);
-        }
-        if (transform.position.x > 24)
-        {
-            transform.position = new Vector3(24, transform.position.y, transform.position.z);
-        }
+        if (transform.position.x < 2) transform.position = new Vector3(2, transform.position.y, transform.position.z);
+        if (transform.position.x > 24) transform.position = new Vector3(24, transform.position.y, transform.position.z);
     }
-    
-    void StartGame()
+
+    private void StartGame()
     {
-        if (!gameStart)
+        if (!GameManager.Instance.gameStart)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                gameStart = true;
+                GameManager.Instance.gameStart = true;
                 pool.RequestBall();
-                
             }
         }
     }

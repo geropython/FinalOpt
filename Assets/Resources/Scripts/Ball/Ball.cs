@@ -1,22 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
+[RequireComponent(typeof(RectCollider))]
 public class Ball : MonoBehaviour
 {
     //Ball variables
-     [SerializeField] public GameObject player;
-     [SerializeField] public bool gameStarted = false;
-     [SerializeField] public Vector3 paddleToBallVector;
-     [SerializeField] private float speed = 5f; 
-     private Vector3 ballVelocity;
+    [SerializeField] public GameObject player;
+    [SerializeField] public bool gameStarted;
+    [SerializeField] public Vector3 paddleToBallVector;
+    [SerializeField] private float speed = 5f;
 
-    void Start()
+    private RectCollider _rectCollider;
+    private Vector3 ballVelocity;
+
+    private void Awake()
+    {
+        _rectCollider = GetComponent<RectCollider>();
+        _rectCollider.OnRectCollisionEnter2D += OnCollisionHandler;
+    }
+
+    private void Start()
     {
         paddleToBallVector = transform.position - player.transform.position;
     }
-    void Update()
+
+    private void Update()
     {
         if (!gameStarted)
         {
@@ -25,12 +32,19 @@ public class Ball : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 gameStarted = true;
-                ballVelocity = new Vector3(0, 0, 1) * speed;
+                ballVelocity = new Vector3(1, 0, 1) * speed;
             }
         }
         else
         {
             transform.position += ballVelocity * Time.deltaTime;
         }
+    }
+
+    private void OnCollisionHandler(RectCollider rectCollider)
+    {
+        print(ballVelocity);
+        ballVelocity *= -1;
+        print(ballVelocity);
     }
 }

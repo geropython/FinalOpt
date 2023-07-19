@@ -1,20 +1,20 @@
+using System;
 using UnityEngine;
 
 public class RectCollider : MonoBehaviour
 {
-    [SerializeField] private CollisionsManager _colMngr;
-
     [SerializeField] private LayerMask layersToCheck;
+    private Vector3 _center;
+    private CollisionsManager _colManager;
+    private float _height;
 
     private MeshRenderer _meshRenderer;
-    private Vector3 center;
-    private float height;
-    private float width;
+    private float _width;
 
-    public float xMin => center.x - width;
-    public float xMax => center.x + width;
-    public float yMin => center.z - height;
-    public float yMax => center.z + height;
+    public float XMin => _center.x - _width;
+    public float XMax => _center.x + _width;
+    public float YMin => _center.z - _height;
+    public float YMax => _center.z + _height;
 
     public LayerMask LayersToCheck => layersToCheck;
 
@@ -25,40 +25,41 @@ public class RectCollider : MonoBehaviour
 
     private void Update()
     {
-        center = transform.position;
+        _center = transform.position;
     }
 
     private void OnEnable()
     {
-        _colMngr.Subscribe(this);
+        GameManager.Instance.CollisionsManager.Subscribe(this);
     }
 
     private void OnDisable()
     {
-        _colMngr.Unsubscribe(this);
+        GameManager.Instance.CollisionsManager.Unsubscribe(this);
     }
 
     private void OnDrawGizmosSelected()
     {
         SetupVariables();
         Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(center, new Vector3(width * 2, 0, height * 2));
-        Gizmos.color = Color.cyan;
-        Gizmos.DrawWireSphere(center, width);
+        Gizmos.DrawWireCube(_center, new Vector3(_width * 2, 0, _height * 2));
     }
+
+    public event Action<RectCollider> OnRectCollisionEnter2D;
 
     // Pre computation - Caching
     private void SetupVariables()
     {
         if (!_meshRenderer) _meshRenderer = GetComponent<MeshRenderer>();
-        center = transform.position;
-        width = _meshRenderer.bounds.extents.x;
-        height = _meshRenderer.bounds.extents.z;
+        _center = transform.position;
+        var bounds = _meshRenderer.bounds.extents;
+        _width = bounds.x;
+        _height = bounds.z;
     }
 
-    // Oncollision enter replacement
+    // On collision enter replacement
     public void OnRectCollision(RectCollider rectCollider)
     {
-        Debug.LogWarning($"Choque con {rectCollider}");
+        OnRectCollisionEnter2D?.Invoke(rectCollider);
     }
 }

@@ -31,20 +31,16 @@ public class CollisionsManager : MonoBehaviour
                 (_objsCollider[i].LayersToCheck | (1 << _objsCollider[j].gameObject.layer)))
                 continue;
 
-            print("before checkrect");
             if (CheckRectCollision(_objsCollider[i], _objsCollider[j]))
-            {
-                print("Inside checkrect");
                 _objsCollider[i].OnRectCollision(_objsCollider[j]);
-            }
         }
     }
 
     private bool CheckRectCollision(RectCollider a, RectCollider b)
     {
-        return a.yMin < b.yMax &&
-               a.yMax > b.yMin &&
-               a.xMin < b.xMax &&
-               a.xMax > b.xMin;
+        return a.YMin < b.YMax &&
+               a.YMax > b.YMin &&
+               a.XMin < b.XMax &&
+               a.XMax > b.XMin;
     }
 }
