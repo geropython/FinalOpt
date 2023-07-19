@@ -45,13 +45,10 @@ public class GameManager : MonoBehaviour
     public void LoseLife()
     {
         print("La pelota tocó fondo. Se pierde una vida");
-        if (!gameStart) _lives--;
+        _lives--;
         if (_lives <= 0)
             GameOver();
         else
-            // Reiniciar la posición de la pelota y volver a pegarla al player
-            // ball.gameStarted = false;
-            // ball.transform.position = ball.player.transform.position + ball.paddleToBallVector;
             gameStart = false;
     }
 
@@ -71,6 +68,8 @@ public class GameManager : MonoBehaviour
         // Player Lives = 0.
         print("Game Over!");
         //ACTIVAR PANEL,CON BOTONES RETRY Y MAIN MENU
+        Time.timeScale = 0;
+        loseScreen.SetActive(true);
     }
 
     public void WinGame()
@@ -78,6 +77,8 @@ public class GameManager : MonoBehaviour
         //Break all the bricks
         print("You Win!!.");
         //ACTIVAR WINPANEL, CON BOTON DE MAIN MENU.
+        Time.timeScale = 0;
+        winScreen.SetActive(true);
     }
 
     public void ResetGameState()
@@ -86,5 +87,7 @@ public class GameManager : MonoBehaviour
         _lives = maxLives;
         PowerUpManager.CalculateStartBricks();
         _bricksToDestroy = 0 - PowerUpManager.powerUpsBricks;
+        winScreen.SetActive(false);
+        loseScreen.SetActive(false);
     }
 }
