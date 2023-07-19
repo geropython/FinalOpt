@@ -7,6 +7,7 @@ public class PowerUpManager : MonoBehaviour
     public float normalBricks;
     public GameObject powerUpPrefab;
     public float powerUpsBricks;
+    public float maxPowerUpsBricks = 3;
 
     public Dictionary<string, float> _dic = new();
 
@@ -27,6 +28,7 @@ public class PowerUpManager : MonoBehaviour
     public void CalculateStartBricks()
     {
         allBricksInGame = GameObject.FindGameObjectsWithTag("Brick");
+        powerUpsBricks = maxPowerUpsBricks;
         normalBricks = allBricksInGame.Length - powerUpsBricks;
     }
 }

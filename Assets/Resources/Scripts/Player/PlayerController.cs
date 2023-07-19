@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     {
         gameStart = false;
         pool = FindObjectOfType<ObjectPool>();
+        GameManager.Instance.ResetGameState();
     }
 
     //UTILIZAR CUSTOM UPDATE
@@ -31,12 +32,10 @@ public class PlayerController : MonoBehaviour
     private void StartGame()
     {
         if (!GameManager.Instance.gameStart)
-        {
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 GameManager.Instance.gameStart = true;
                 pool.RequestBall();
             }
-        }
     }
 }

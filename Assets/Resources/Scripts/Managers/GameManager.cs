@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
 
         if (PowerUpManager.normalBricks <= 0 - PowerUpManager.powerUpsBricks) WinGame();
     }
-    
+
     public void LoseLife()
     {
         print("La pelota tocó fondo. Se pierde una vida");
@@ -83,7 +83,7 @@ public class GameManager : MonoBehaviour
         //ACTIVAR WINPANEL, CON BOTON DE MAIN MENU.
     }
 
-    private void ResetGameState()
+    public void ResetGameState()
     {
         gameStart = false;
         _lives = maxLives;
