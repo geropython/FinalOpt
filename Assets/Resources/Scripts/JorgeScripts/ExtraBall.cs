@@ -13,18 +13,9 @@ public class ExtraBall : MonoBehaviour
 
     private Renderer objectRenderer;
 
-    private void Start() // 
+    private void Start()
     {
         objectRenderer = GetComponent<Renderer>();
-
-        //Verifico que la informacion del ancho y alto de la pelotita
-        #region Chequeo datos
-        float visualWidth = objectRenderer.bounds.size.x;
-        float visualHeight = objectRenderer.bounds.size.z;
-
-        Debug.Log("Anchura visual: " + visualWidth);
-        Debug.Log("Altura visual: " + visualHeight);
-        #endregion
     }
     public void CheckCollision() // Es la utilizada en 2D adaptado al 3D
     {

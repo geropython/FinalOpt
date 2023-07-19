@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    //JORGE
+    public bool gameStart = false;
     //GAME MANAGER SINGLETON
     public static GameManager Instance = null;
     

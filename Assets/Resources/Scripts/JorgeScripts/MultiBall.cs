@@ -18,7 +18,8 @@ public class MultiBall : MonoBehaviour
     }
     private void Update()
     {
-        transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - speed * Time.deltaTime);
+        GameStart();
+        //transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - speed * Time.deltaTime);
         CheckCollision();
     }
     private void CreateBalls() //Instancia dos pelotitas en direcciones opuestas (eje X)
@@ -36,7 +37,6 @@ public class MultiBall : MonoBehaviour
     {
         Vector3 playerPosition = pool.player.transform.position; // Me guardo la posicion del player
         Vector3 objectPosition = transform.position;
-        //Renderer playerRender = pool.player.GetComponent<Renderer>(); // Me guardo el render del player
         Renderer playerRender = pool.player.GetComponent<Renderer>();
 
         float distanceX = Mathf.Abs(playerPosition.x - objectPosition.x);
@@ -52,13 +52,21 @@ public class MultiBall : MonoBehaviour
             CreateBalls();
         }
     }
-
-    /*private void OnTriggerEnter(Collider other)
+    void GameStart()
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (!GameManager.Instance.gameStart)
         {
-            CreateBalls();
-            this.gameObject.SetActive(false);
+            transform.position = pool.player.transform.position;
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                GameManager.Instance.gameStart = true;
+                //ballVelocity = new Vector3(0, 0, 1) * speed;
+            }
         }
-    }*/
+        else
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - speed * Time.deltaTime);
+        }
+    }
 }

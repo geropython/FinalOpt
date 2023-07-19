@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-   [SerializeField] private float speed = 5f;
+    ObjectPool pool;
+    [SerializeField] private float speed = 5f;
+    public bool gameStart;
 
-   //UTILIZAR CUSTOM UPDATE
+    private void Start()
+    {
+        gameStart = false;
+        pool = FindObjectOfType<ObjectPool>();
+    }
+
+    //UTILIZAR CUSTOM UPDATE
     void Update()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
 
         transform.position += new Vector3(horizontalInput, 0, 0) * (speed * Time.deltaTime);
         LimitMovePlayer();
+        StartGame();
     }
     void LimitMovePlayer() //Limita el movimiento del player (posicion hardcodeada)
     {
@@ -23,6 +32,19 @@ public class PlayerController : MonoBehaviour
         if (transform.position.x > 24)
         {
             transform.position = new Vector3(24, transform.position.y, transform.position.z);
+        }
+    }
+    
+    void StartGame()
+    {
+        if (!gameStart)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                gameStart = true;
+                pool.RequestBall();
+                
+            }
         }
     }
 }

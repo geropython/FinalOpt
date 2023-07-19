@@ -2391,6 +2391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bc23dc430e111949b01d8ea1833e48a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameStart: 0
   ball: {fileID: 1015462335411393774}
   bottomBoundary: 0
   lives: 3
@@ -9094,6 +9095,10 @@ PrefabInstance:
     - target: {fileID: 1015462335453059596, guid: 744a3ed13f2105f41b80cab817150372, type: 3}
       propertyPath: m_Name
       value: Ball-SPHERE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015462335453059596, guid: 744a3ed13f2105f41b80cab817150372, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 744a3ed13f2105f41b80cab817150372, type: 3}

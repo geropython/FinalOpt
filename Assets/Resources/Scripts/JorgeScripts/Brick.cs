@@ -7,22 +7,23 @@ public class Brick : MonoBehaviour
     PowerUpManager _powerUpManager;
     ObjectPool pool;
     private Renderer objectRenderer;
-    public void CheckCollision()
+    public void CheckCollision() // Es la utilizada en 2D adaptado al 3D
     {
-        Vector3 ballPosition = pool.ball.transform.position;
+        Vector3 ballPosition = pool.ball.transform.position; // Me guardo la posicion del player
         Vector3 objectPosition = transform.position;
+        Renderer ballRender = pool.ball.GetComponent<Renderer>(); // Me guardo el render del player
 
         float distanceX = Mathf.Abs(ballPosition.x - objectPosition.x);
         float distanceZ = Mathf.Abs(ballPosition.z - objectPosition.z);
 
-        float sumHalfWidths = pool.ball.bounds.size.x / 2 + objectRenderer.bounds.size.x / 2;
-        float sumHalfHeights = pool.ball.bounds.size.z / 2 + objectRenderer.bounds.size.z / 2;
-        Debug.Log(distanceX + "Distancia X");
-        Debug.Log(distanceZ + "Distancia Z");
+        float sumHalfWidths = ballRender.bounds.size.x / 2 + objectRenderer.bounds.size.x / 2;
+        float sumHalfHeights = ballRender.bounds.size.z / 2 + objectRenderer.bounds.size.z / 2;
 
         if (distanceX <= sumHalfWidths && distanceZ <= sumHalfHeights)
         {
             Debug.Log("Colision");
+            BrickDestroy();
+            //posZMove = 1;
         }
     }
     void Start()
@@ -55,17 +56,18 @@ public class Brick : MonoBehaviour
         this.gameObject.SetActive(false);
     }
 
-    private void OnMouseDown() // Reemplazar esto con colision con pelotita
+    /*private void OnMouseDown() // Reemplazar esto con colision con pelotita
     {
         BrickDestroy();
         CheckCollision();
-    }
+    }*/
 
     public List<GameObject> objectsToCheck; // Lista de GameObjects que serán chequeados
     public float collisionDistance = 1.0f; // Distancia para detectar colisiones
 
     private void Update()
     {
+        CheckCollision();
         for (int i = 0; i < objectsToCheck.Count; i++)
         {
             GameObject currentObject = objectsToCheck[i];
