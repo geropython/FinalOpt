@@ -29,7 +29,6 @@ public class ExtraBall : MonoBehaviour
 
     private void Update()
     {
-        //_ballDirection = new Vector3(posXMove, 0, posZMove);
         transform.position += _ballDirection * (extraBallSpeed * Time.deltaTime);
         OutOfBounds();
         CheckCollision();
@@ -39,6 +38,12 @@ public class ExtraBall : MonoBehaviour
     {
         var startPosition = new Vector3(pool.player.transform.position.x, 0, pool.player.transform.position.z + 0.5f);
         transform.position = startPosition;
+        if (GameManager.Instance.gameStart) GameManager.Instance.SpawnNewBall();
+    }
+
+    private void OnDisable()
+    {
+        transform.position = Vector3.zero;
     }
 
     public void CheckCollision() // Es la utilizada en 2D adaptado al 3D
@@ -55,7 +60,6 @@ public class ExtraBall : MonoBehaviour
 
         if (distanceX <= sumHalfWidths && distanceZ <= sumHalfHeights)
         {
-            Debug.Log("Colision");
             posZMove = 1;
             _ballDirection.z = posZMove;
         }
@@ -72,7 +76,7 @@ public class ExtraBall : MonoBehaviour
         if (transform.position.z < bottomBoundary)
         {
             gameObject.SetActive(false);
-            GameManager.Instance.LoseLife();
+            GameManager.Instance.LoseBall();
         }
 
         if (transform.position.z > 26)
@@ -99,8 +103,6 @@ public class ExtraBall : MonoBehaviour
 
     private void OnCollisionHandler(RectCollider rectCollider)
     {
-        print(_ballDirection);
         _ballDirection *= -1;
-        print(_ballDirection);
     }
 }

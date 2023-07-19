@@ -12,6 +12,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Ball ball;
     [SerializeField] private float bottomBoundary;
     [SerializeField] private int maxLives = 3;
+    [SerializeField] private GameObject winScreen;
+    [SerializeField] private GameObject loseScreen;
+    private int _ballsOnScreen;
+    private float _bricksToDestroy;
 
     //PLAYER LIVES:
     private int _lives;
@@ -35,16 +39,13 @@ public class GameManager : MonoBehaviour
     //USE CUSTOM UPDATE:
     private void Update()
     {
-        //For not destroying the ball instance in MAIN MENU
-        if (ball != null && ball.transform.position.z < bottomBoundary) LoseLife();
-
-        if (PowerUpManager.normalBricks <= 0 - PowerUpManager.powerUpsBricks) WinGame();
+        if (PowerUpManager.normalBricks <= _bricksToDestroy) WinGame();
     }
 
     public void LoseLife()
     {
         print("La pelota tocó fondo. Se pierde una vida");
-        _lives--;
+        if (!gameStart) _lives--;
         if (_lives <= 0)
             GameOver();
         else
@@ -56,17 +57,13 @@ public class GameManager : MonoBehaviour
 
     public void SpawnNewBall()
     {
-        _lives--;
-        if (_lives <= 0)
-        {
-            GameOver();
-        }
-        else
-        {
-            // Reiniciar la posición de la pelota y volver a pegarla al player
-            ball.gameStarted = false;
-            ball.transform.position = ball.player.transform.position + ball.paddleToBallVector;
-        }
+        _ballsOnScreen++;
+    }
+
+    public void LoseBall()
+    {
+        _ballsOnScreen--;
+        if (_ballsOnScreen <= 0) LoseLife();
     }
 
     public void GameOver()
@@ -88,5 +85,6 @@ public class GameManager : MonoBehaviour
         gameStart = false;
         _lives = maxLives;
         PowerUpManager.CalculateStartBricks();
+        _bricksToDestroy = 0 - PowerUpManager.powerUpsBricks;
     }
 }
