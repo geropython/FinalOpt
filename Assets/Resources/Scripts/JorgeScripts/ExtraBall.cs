@@ -4,8 +4,6 @@ public class ExtraBall : MonoBehaviour
 {
     [SerializeField] private float bottomBoundary;
 
-    //public GameObject brick1;
-    //public Renderer player;
     public float extraBallSpeed = 5f;
     private Vector3 _ballDirection;
     private RectCollider _rectCollider;
@@ -31,7 +29,7 @@ public class ExtraBall : MonoBehaviour
     {
         transform.position += _ballDirection * (extraBallSpeed * Time.deltaTime);
         OutOfBounds();
-        CheckCollision();
+        CheckCollisionPlayer();
     }
 
     private void OnEnable()
@@ -46,7 +44,7 @@ public class ExtraBall : MonoBehaviour
         transform.position = Vector3.zero;
     }
 
-    public void CheckCollision() // Es la utilizada en 2D adaptado al 3D
+    public void CheckCollisionPlayer() // Es la utilizada en 2D adaptado al 3D
     {
         var playerPosition = pool.player.transform.position; // Me guardo la posicion del player
         var objectPosition = transform.position;
@@ -103,6 +101,9 @@ public class ExtraBall : MonoBehaviour
 
     private void OnCollisionHandler(RectCollider rectCollider)
     {
+        Debug.Log("CAMBIO DIR");
+        var brick = rectCollider.GetComponent<Brick>();
+        brick.BrickDestroy();
         _ballDirection *= -1;
     }
 }
